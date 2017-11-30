@@ -222,7 +222,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form action="https://formspree.io/mauriciocblum@gmail.com" name="sentMessage" id="contactForm" novalidate>
+                    <form action="https://formspree.io/mauriciocblum@gmail.com" method="POST" name="sentMessage" id="contactFormTest" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -237,13 +237,13 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
-                            <!--<div class="form-group col-xs-12 floating-label-form-group controls">
+                        <!--<div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Phone Number</label>
                                 <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
-                            </div>-->
-                        </div>
+                            </div>
+                        </div>-->
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
@@ -256,7 +256,7 @@
 
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <input type="submit" class="btn btn-success btn-lg">Send</input>
+                                <input type="submit" class="btn btn-success btn-lg"></input>
                             </div>
                         </div>
 

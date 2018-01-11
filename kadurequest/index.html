@@ -25,6 +25,10 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
 
+    <script type="text/javascript">
+    	
+    </script>
+
   </head>
 
   <body id="page-top">
@@ -50,10 +54,10 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#join">Join Now</a>
           </li>
-           <!--<li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#tos">Terms of Service</a>
           </li>
-          <li class="nav-item">
+         <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
           <li class="nav-item">
@@ -67,16 +71,19 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">King
-            <span class="text-primary">BTC Group</span>
+          <h1 class="mb-0">
+            <span class="text-primary">Sherlock's Group</span>
           </h1>
           <div class="subheading mb-5">The group where you get rich faster<br />
             <a href="mailto:name@email.com">getrich@email.com</a>
           </div>
           <h3 class="mb-0">Why you must join this group?</h3>
-          <p class="mb-5">Dat feeling that this isn't $VRC's last leg up but sometimes you gotta take some profit just for the sake of risk management.
-           Join My Facebook BTC Group and Earn Satoshi For Free. New Concept. *Just join the group and add more members, who adds more member will get the 400,000Satoshi prize. Top 10 will also get 80,000Satoshi. Please guyz dont give me bad ratings for this, It is BTC related so please give me!</p>
-          <p class="mb-5">Markets Update: Exchange News from South Korea Brings the Bitcoin Bears. Cryptocurrency prices are sliding downwards since our last markets update, as the top ten digital assets are all seeing a loss of gains on January 8. BTC/USD markets reached a high of $17,200 on Saturday evening on January 6, but the value </p>
+          <p class="mb-5">Check out what the current members have to say</p>
+
+
+			<div class="embed-responsive embed-responsive-1by1">
+			  <iframe class="embed-responsive-item" src="testimonials.html"></iframe>
+			</div>
         </div>
       </section>
 
@@ -112,15 +119,7 @@
               <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
@@ -157,20 +156,24 @@
 					  	<h3 class="mb-0">You are almost there!</h3><br>
 					    
 					    <form action="https://www.coinpayments.net/index.php" method="post">
-						  <h5 class="mb-0">Click the payment button below</h3><br>
-						 <input type="hidden" name="cmd" value="_pay">
-	<input type="hidden" name="reset" value="1">
-	<input type="hidden" name="merchant" value="a6027368bfb70dbbec1f190c125fd7af">
-	<input type="hidden" name="item_name" value="Group Subscription">
-	<input type="hidden" name="item_desc" value="Pay this fee to enter the group.">
-	<input type="hidden" name="item_number" value="001">
-	<input type="hidden" name="allow_extra" value="2">
-	<input type="hidden" name="extra_desc" value="Please leave your twitter Username here. Eg: @crazy_crypto">
-	<input type="hidden" name="invoice" value="0001">
-	<input type="hidden" name="currency" value="BTC">
-	<input type="hidden" name="amountf" value="0.05000000">
-	<input type="hidden" name="want_shipping" value="0">
-	<input type="image" src="https://www.coinpayments.net/images/pub/buynow-wide-yellow.png" alt="Compre Agora com CoinPayments.net">
+						  <h5 class="mb-0">You must agree to the <a href="index.html#tos" value="refresh">Terms of Service</a> in order to continue</h3>
+						  	<input id="tosCheckbox" type="checkbox" class="checkbox" required="true">
+						  	<label for="tosCheckbox">Check this box if you agree</label>
+						  	<br>
+						<input type="hidden" name="cmd" value="_pay">
+						<input type="hidden" name="reset" value="1">
+						<input type="hidden" name="merchant" value="a6027368bfb70dbbec1f190c125fd7af">
+						<input type="hidden" name="item_name" value="Group Subscription">
+						<input type="hidden" name="item_desc" value="Pay this fee to enter the group.">
+						<input type="hidden" name="item_number" value="001">
+						<input type="hidden" name="allow_extra" value="2">
+						<input type="hidden" name="extra_desc" value="Please leave your twitter Username here. Eg: @crazy_crypto">
+						<input type="hidden" name="invoice" value="0001">
+						<input type="hidden" name="currency" value="BTC">
+						<input type="hidden" name="allow_currencies" value="BTC,LTC,XRP">
+						<input type="hidden" name="amountf" value="0.05000000">
+						<input type="hidden" name="want_shipping" value="0">
+						<input type="image" src="https://www.coinpayments.net/images/pub/buynow-wide-yellow.png" alt="Compre Agora com CoinPayments.net">
 						</form>
 					  </div>
 
@@ -245,6 +248,9 @@
 				    if (event.target == modal) {
 				        modal.style.display = "none";
 				    }
+				    else if (event.target.tagName.toLowerCase() === 'a') {
+				        modal.style.display = "none";
+				    }
 				}
 
               	</script>
@@ -259,68 +265,23 @@
          
 
         </div>
-      </section> <!-- 
+      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="tos">
         <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-5">Terms of Service</h2>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
+          <div class="subheading mb-3">Topics</div>
+         <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
 
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
+          <div class="subheading mb-3">Topics</div>
+       	<p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+     <!--  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
           <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>

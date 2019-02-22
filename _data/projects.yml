@@ -1,7 +1,14 @@
-- name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+- name: Lunch Team Platters
+  #github:
+  link: lunch.team
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    It's like Ifood, but for companies.
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    This is my first professional project working with React.js and I'm having a blast while working on it. Everyday I learn something new.
+- name: Kaze and the Wild Masks
+  #github:
+  link: playkaze.com
+  quote: >
+    I hope this project takes the Brazilian Indie Game Development scene to a new level.
+  description: | # this will include new lines to allow paragraphs
+    This project was a huge challenge for me because I was responsible for overlook the entire development cycle of the game. Managing a team was a big deal, and I learned a lot about Project Management in general while working in this project.

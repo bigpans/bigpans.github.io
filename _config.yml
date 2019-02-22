@@ -24,53 +24,18 @@ linkedin_username: mauricio-da-cunha-blum-31060846
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Mauricio and i'm a passionate Front-End Developer with extremely attention to detail. I love to develop meaningful interactions to the user and ensure best possible performance on all platforms.
+  Hi, my name is Mauricio and i'm a passionate Front-End Developer with extremely attention to detail. 
 
-  I am most skilled in: <mark>React.js</mark> and <mark>Node.js</mark>
+  I love to develop meaningful interactions to the user and ensure best possible performance on all platforms.
+
+  I have 6+ years of Front End development experience and I'm a evangelist of Agile/Scrum principles and methodology and have extensive knowledge of project management software (JIRA, Trello).
+
+  I am mainly focused in: <mark>React.js</mark> and <mark>Node.js</mark>
+
+  and other relevant skills include: <mark>Javascript</mark>, <mark>HTML5/CSS3</mark>, React Native, C#, MySQL, Mongodb, Nunjucks, JSON/REST, Unity3d, Git/SVN, and Photoshop
 
 # Projects Section
 # projects_title: Projects
-- company: Vox Game Studio
-  link: voxstudio.com.br
-  job_title: Project Manager Intern
-  dates: April 2018 - January 2019
-  description: | # this will include new lines to allow paragraphs
-    Working as a Product Owner communicating with the stakeholders of the company’s projects and maintaining the product vision. Managing and prioritizing the product backlog and overseeing all development process.
-    Working as a Scrum Master to coach the team about the Scrum/Agile principles and values; Helping the team remove impediments and being a facilitator.
-
-- company: SuperGeeks Canoas 
-  link: supergeeks.com.br
-  job_title: Programming Teacher
-  dates: September 2017 - April 2018
-  description: | #
-    Teach kids from 7 to 16 years old Game Development, programming and robotics.
-    Tools used -> Construct, Unity3D, Scratch, Unreal Engine, Arduino.
-
-
-  - company: Leapforce Inc (San Francisco-USA)
-  link: leapforceathome.com
-  job_title: Search Engine Evaluator (Home Office)
-  dates: December 2015 - January 2018
-  description: | #
-    Help the team of search evaluators to improve search algorithms.
-    Evaluate search queries from users.
-
-
-  - company: Rubix Marketing (The Hague, Netherlands)
-  link: rubixmarketing.nl
-  job_title: Full Stack Magento Developer
-  dates: May 2015 - August 2015
-  description: | #
-    Plugin development for Magento Ecommerce websites and Frontend design using HTML5/CSS3.
-
-  - company: Buqui Livros Digitais    
-  link: buqui.com.br
-  job_title: Ebook Designer
-  dates: January 2012 - July 2014 and January 2016 to March 2016
-  description: | #
-    Design ebooks in the .epub format, using HTML5/CSS3.
-
-
 
 # Experience Section
 # experience_title: Experience
@@ -83,7 +48,7 @@ about_content: | # this will include new lines to allow paragraphs
 more_content: | # this will include new lines to allow paragraphs
   - Fluent in English
   - Guitar player
-  - Ebook designer
+  - Excellent Football(the real one) center-forward skills
 
 # Footer
 footer_show_references: true

@@ -40,10 +40,9 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Additional information:
-   - Fluent in English
-   - Guitar player
-   - Ebook designer
+  - Fluent in English
+  - Guitar player
+  - Ebook designer
 
 # Footer
 footer_show_references: true

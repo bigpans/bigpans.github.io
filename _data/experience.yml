@@ -1,9 +1,23 @@
-- company: 3035 Tech
-  link: 3035tech.com.br
+- company: ITSector
+  link: itsector.pt
   job_title: Frontend Developer
   dates: February 2019 - present
   description: | #
+    Develop functional and meaningful user interfaces for applications using React.js with Typescript and extensive unit-testing with Jest and Enzyme.
+
+    Develop components for shared-use in team workspaces.
+
+    Communicate with NET MVC or ASP.NET Core backend services
+- company: 3035 Tech
+  link: 3035tech.com.br
+  job_title: Lead Frontend Developer
+  dates: February 2019 - present
+  description: | #
     Develop functional and meaningful user interfaces for applications using React.js and HTML5 CSS.
+    
+    Develop scalable and performant mobile applications using React Native.
+    
+    Manage the Frontend Development team.
 - company: Vox Game Studio
   link: voxstudio.com.br
   job_title: Project Manager Intern

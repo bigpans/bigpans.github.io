@@ -1,3 +1,10 @@
+- name: Undisclosed Project in Banking company
+  #github:
+  link: itsector.pt
+  quote: >
+    React with Typescript and extensive unit-testing on frontend.
+  description: | # this will include new lines to allow paragraphs
+    Very challenging project in a really big company. Can't give any more details.
 - name: Boletão
   #github:
   link: boletao.com.br

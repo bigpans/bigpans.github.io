@@ -4,9 +4,9 @@ favicon: images/favicon.png
 
 # Personal info
 name: Mauricio Blum
-title: Frontend Developer
+title: Full Stack Developer
 email: mauriciocblum@gmail.com
-website: http://mauricioblum.github.io
+website: https://mauricioblum.github.io
 
 # Social links
 twitter_username: maublum
@@ -15,7 +15,7 @@ github_username: mauricioblum
 facebook_username: mauricioblum
 # flickr_username: jekyll
 # instagram_username: chillwildlife
-linkedin_username: mauricio-da-cunha-blum-31060846
+linkedin_username: mauricioblum
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
@@ -36,7 +36,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   and other relevant skills include: <mark>Javascript</mark>,<mark>Typescript</mark>, Jest, Enzyme, TDD, <mark>HTML5/CSS3</mark>, Redux, Redux Saga, Styled Components, Ruby on Rails, C#, MySQL, Postgres, Nunjucks, JSON/REST, Git/SVN.
 
-  If you looking for a <mark>CV</mark> in a <mark>PDF</mark> format, you can download it here: [Download](./CV-MauricioBlum-2020-1.pdf)
+  If you looking for a <mark>CV</mark> in a <mark>PDF</mark> format, you can download it here: [Download](./CV-MauricioBlum-2020-2.0.pdf)
 # Projects Section
 # projects_title: Projects
 

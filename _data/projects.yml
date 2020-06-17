@@ -1,6 +1,6 @@
-- name: Undisclosed Project in Banking company
+- name: Millennium BCP / Activo Bank
   #github:
-  link: itsector.pt
+  link: https://ind.millenniumbcp.pt/pt/Documents/app/app-millennium.html
   quote: >
     React with Typescript and extensive unit-testing on frontend.
   description: | # this will include new lines to allow paragraphs

@@ -3,26 +3,28 @@
   job_title: Frontend Developer
   dates: February 2019 - present
   description: | #
-    Develop functional and meaningful user interfaces for applications using React.js with Typescript and extensive unit-testing with Jest and Enzyme.
+    Delivered a brand new mobile experience to millions of clients of the leading banking app of Portugal
 
-    Develop components for shared-use in team workspaces.
+    Overhauled the app's general usability and performance along with the UI/UX team
 
-    Communicate with NET MVC or ASP.NET Core backend services
+    Helped to streamline the shared components development process of the company's projects
 - company: 3035 Tech
   link: 3035tech.com.br
   job_title: Lead Frontend Developer
   dates: February 2019 - present
   description: | #
-    Develop functional and meaningful user interfaces for applications using React.js and HTML5 CSS.
+    Brought numerous web and mobile applications to life on areas such as finance, food delivery and home renovations.
     
-    Develop scalable and performant mobile applications using React Native.
+    Managed up to four projects at a time
     
-    Manage the Frontend Development team.
+    Consolidated the company's rebranding and amplified sales
 - company: Vox Game Studio
   link: voxstudio.com.br
   job_title: Project Manager Intern
   dates: April 2018 - January 2019
   description: | # this will include new lines to allow paragraphs
+    Led a team of 9 programmers overseeing the game development process by using Scrum and Agile methodologies
+
     Working as a Product Owner communicating with the stakeholders of the company’s projects and maintaining the product vision. Managing and prioritizing the product backlog and overseeing all development process.
 
     Working as a Scrum Master to coach the team about the Scrum/Agile principles and values; Helping the team remove impediments and being a facilitator.
@@ -31,9 +33,9 @@
   job_title: Programming Teacher
   dates: September 2017 - April 2018
   description: | #
-    Teach kids from 7 to 16 years old Game Development, programming and robotics.
+    Mentored kids and teens in programming, web and game development
 
-    Tools used -> Construct, Unity3D, Scratch, Unreal Engine, Arduino.
+    Tools used -> React, Construct, Unity3D, Scratch, Unreal Engine, Arduino, HTML, CSS.
 - company: Leapforce Inc (San Francisco-USA)
   link: leapforceathome.com
   job_title: Search Engine Evaluator (Home Office)
@@ -47,7 +49,7 @@
   job_title: Full Stack Magento Developer
   dates: May 2015 - August 2015
   description: | #
-    Plugin development for Magento Ecommerce websites and Frontend design using HTML5/CSS3.
+    Helped deliver high quality plugins for Magento Ecommerce websites.
 - company: Buqui Livros Digitais
   link: buqui.com.br
   job_title: Ebook Designer

@@ -1,10 +1,10 @@
 - name: Millennium BCP / Activo Bank
   #github:
-  link: https://ind.millenniumbcp.pt/pt/Documents/app/app-millennium.html
+  link: bit.ly/mbcpapp
   quote: >
     React with Typescript and extensive unit-testing on frontend.
   description: | # this will include new lines to allow paragraphs
-    Very challenging project in a really big company. Can't give any more details.
+    Delivering the lead mobile banking experience of Portugal
 - name: Boletão
   #github:
   link: boletao.com.br

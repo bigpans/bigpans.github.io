@@ -11,21 +11,28 @@
   quote: >
     To a life with less bills.
   description: | # this will include new lines to allow paragraphs
-    I'm leading the development of the new React Native application using Redux, Redux Saga, Styled Components and many more.
-- name: Renova Imóvel
+    I was the lead developer of this React Native application using Redux, Redux Saga, Styled Components and many more.
+- name: React Native SuperDDA IuPay
   #github:
-  link: renovaimovel.com.br
+  link: superdda-storybook.netlify.app
   quote: >
-    Loan Service focused on home renovations.
+    IuPay SuperDDA Component Package for React Native
   description: | # this will include new lines to allow paragraphs
-    Complete React/Redux/Redux Saga/Styled Components project that I developed from the ground-up, with the help of a Spring Boot Application for the backend.
+    Created from the ground-up a complete component package for React Native, using Storybook and Styled Components. Availabe in NPM: https://www.npmjs.com/package/react-native-superdda-iupay
+- name: Dummy Placeholders
+  #github:
+  link: dummy-placeholders.vercel.app
+  quote: >
+    Fun image placeholder generator
+  description: | # this will include new lines to allow paragraphs
+    Next.JS application using only Serverless functions to generate any kind of image with any size, using Pixabay API.
 - name: Lunch Team Platters
   #github:
   link: lunch.team
   quote: >
     It's like Ifood, but for companies.
   description: | # this will include new lines to allow paragraphs
-    This is my first professional project working with React.js and I'm having a blast while working on it. Everyday I learn something new.
+    React.JS / Redux / Styled Components / ContextAPI Project
 - name: Kaze and the Wild Masks
   #github:
   link: playkaze.com

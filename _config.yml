@@ -4,7 +4,7 @@ favicon: images/favicon.png
 
 # Personal info
 name: Mauricio Blum
-title: Full Stack Developer
+title: Frontend Developer
 email: mauriciocblum@gmail.com
 website: https://mauricioblum.github.io
 
@@ -24,7 +24,7 @@ linkedin_username: mauricioblum
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Mauricio and I’m a passionate Full Stack Developer and problem-solver.
+  Hi, my name is Mauricio and I’m a passionate Frontend Developer and problem-solver.
 
   I love to develop meaningful interactions to the user and ensure best possible performance on all platforms.
 

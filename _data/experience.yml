@@ -1,7 +1,17 @@
+- company: Yotako
+  link: yotako.io
+  job_title: Senior Frontend Developer
+  dates: September 2021 - Present
+  description: | #
+    Brought the core product of the company to life using frontend tools connected to third party services (Adobe XD plugin)
+
+    Built the complete workflow of the company's services and connected then together via cloud services
+
+    Oversee all development processes of a startup enviroment
 - company: ITSector
   link: itsector.pt
   job_title: Frontend Developer
-  dates: January 2020 - present
+  dates: January 2020 - September 2021
   description: | #
     Delivered a brand new mobile experience to millions of clients of the leading banking app of Portugal
 
